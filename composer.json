@@ -1,5 +1,5 @@
 {
-    "name": "namu/wirechat",
+    "name": "mrduong92/wirechat",
     "description": "A Laravel Livewire messaging app for teams with private chats and group conversations.",
     "license": "MIT",
     "autoload": {
