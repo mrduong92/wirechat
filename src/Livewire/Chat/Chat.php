@@ -132,9 +132,9 @@ class Chat extends Component
             // dd($newMessage);
 
             // Make sure message does not belong to auth
-            if ($newMessage->sendable_id == auth()->id() && $newMessage->sendable_type == $this->auth->getMorphClass()) {
-                return null;
-            }
+            // if ($newMessage->sendable_id == auth()->id() && $newMessage->sendable_type == $this->auth->getMorphClass()) {
+            //     return null;
+            // }
 
             // push message
             $this->pushMessage($newMessage);
